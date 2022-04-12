@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import {Text } from '@chakra-ui/react';
+import {Box, Text } from '@chakra-ui/react';
+import Nav from './components/nav-bar';
 
 function App() {
   return (
-    <div className="App">
- <Text>Hello World</Text>
-    </div>
+   <Box>
+     <Nav/>
+   </Box>
   );
 }
 
