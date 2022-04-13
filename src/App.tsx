@@ -6,6 +6,8 @@ import Hero from "./components/hero";
 import GetStarted from "./components/get-started";
 import AboutUs from "./components/about-us";
 import Developers from "./components/developers";
+import ReadyToStart from "./components/ready-to-start";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <GetStarted />
       <AboutUs />
       <Developers />
+      <ReadyToStart />
+      <Footer />
     </Box>
   );
 }

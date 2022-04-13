@@ -9,9 +9,15 @@ function Developers() {
       <Box textAlign={"center"}>
         <Heading color={"#1870d5"}>Designed for Developers</Heading>
       </Box>
-      <Flex alignItems={"center"} justifyContent={"space-between"} pt={"100px"}>
-        <Image src={developers} />
-        <Box>
+      <Flex
+        alignItems={"center"}
+        justifyContent={"space-between"}
+        pt={{ md: "100px", base: "50px" }}
+        display={{ base: "block", md: "flex" }}
+      >
+        <Image mx={"auto"} w={"500px"} src={developers} />
+
+        <Box pl={"20px"} mt={{ base: "30px", md: "0" }}>
           <Text color={"#1870d5"} fontSize={"2xl"} fontWeight={"bold"}>
             Africa's leading API integration
           </Text>

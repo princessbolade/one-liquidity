@@ -29,9 +29,8 @@ function AboutUs() {
         <Heading color={"#1870d5"}>Why us?</Heading>
         <Text lineHeight={"8"} fontSize={"16px"} pt={"25px"}>
           One Liquidity is a leading payment platform patnering with companies{" "}
-          <br />
-          ranging from crypto-native institutions and fintech firms to remove
-          the <br /> complexity of building financial platforms from scratch{" "}
+          ranging from crypto-native institutions and <br /> fintech firms to
+          remove the complexity of building financial platforms from scratch{" "}
         </Text>
       </Box>
       <Flex>
@@ -45,7 +44,7 @@ function AboutUs() {
             <Box
               bg={"#f3f5fb"}
               borderRadius={"20px"}
-              ml={"50px"}
+              ml={{ base: "0", md: "50px" }}
               px={"30px"}
               py={"30px"}
               mt={{ base: "30px", md: "0" }}
