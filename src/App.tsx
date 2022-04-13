@@ -4,6 +4,7 @@ import {Box, Text } from '@chakra-ui/react';
 import Nav from './components/nav-bar';
 import Hero from './components/hero';
 import GetStarted from './components/get-started';
+import AboutUs from './components/about-us';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Nav/>
      <Hero/>
      <GetStarted/>
+     <AboutUs/>
    </Box>
   );
 }
