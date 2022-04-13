@@ -1,18 +1,24 @@
-import { Box, Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import strategy from "../../assets/idea-bulb.png";
+import product from "../../assets/new-product.png";
+import saftey from "../../assets/privacy.png";
 import React from "react";
 
 const item = [
   {
     heading: "Strategy",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae hendrerit tortor. Etiam convallis velit augue, id blandit lorem euismod vitae. Fusce pharetra posuere erat, sit amet tristique odio iaculis vitae. Morbi vel sem convallis, sollicitudin ex at, faucibus urna. Quisque eu ligula dignissim, pharetra orci ac, mattis lacus. Duis ac hendrerit odio, ut faucibus ligula. Vivamus vel eleifend lacus.",
+    src: strategy,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae hendrerit tortor. Etiam convallis velit augue, id blandit lorem euismod vitae. Fusce pharetra posuere erat, sit amet tristique odio iaculis vitae. Morbi vel sem convallis, sollicitudin ex at, faucibus urna.",
   },
   {
     heading: "Product",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae hendrerit tortor. Etiam convallis velit augue, id blandit lorem euismod vitae. Fusce pharetra posuere erat, sit amet tristique odio iaculis vitae. Morbi vel sem convallis, sollicitudin ex at, faucibus urna. Quisque eu ligula dignissim, pharetra orci ac, mattis lacus. Duis ac hendrerit odio, ut faucibus ligula. Vivamus vel eleifend lacus.",
+    src: product,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae hendrerit tortor. Etiam convallis velit augue, id blandit lorem euismod vitae. Fusce pharetra posuere erat, sit amet tristique odio iaculis vitae. Morbi vel sem convallis, sollicitudin ex at, faucibus urna.",
   },
   {
     heading: "Saftey",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae hendrerit tortor. Etiam convallis velit augue, id blandit lorem euismod vitae. Fusce pharetra posuere erat, sit amet tristique odio iaculis vitae. Morbi vel sem convallis, sollicitudin ex at, faucibus urna. Quisque eu ligula dignissim, pharetra orci ac, mattis lacus. Duis ac hendrerit odio, ut faucibus ligula. Vivamus vel eleifend lacus.",
+    src: saftey,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae hendrerit tortor. Etiam convallis velit augue, id blandit lorem euismod vitae. Fusce pharetra posuere erat, sit amet tristique odio iaculis vitae. Morbi vel sem convallis, sollicitudin ex at, faucibus urna.",
   },
 ];
 
@@ -35,13 +41,24 @@ function AboutUs() {
           pt={"50px"}
         >
           {item.map((items, i) => (
-            <Box>
-              <Text color={"#1870d5"} fontSize={"2xl"} fontWeight={"semibold"}>
+            <Box
+              bg={"#f3f5fb"}
+              borderRadius={"20px"}
+              ml={"50px"}
+              px={"30px"}
+              py={"30px"}
+            >
+              <Image w={"100px"} h={"100px"} src={items.src} />
+              <Text
+                mt={"25px"}
+                color={"#1870d5"}
+                fontSize={"2xl"}
+                fontWeight={"semibold"}
+              >
                 {items.heading}
               </Text>
-              <Text pr={"100px"} pt={"25px"}>
-                {items.text}
-              </Text>
+
+              <Text pt={"25px"}>{items.text}</Text>
             </Box>
           ))}
         </Flex>
