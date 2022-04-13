@@ -2,6 +2,7 @@ import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import unifiedImg from "../../assets/unified-img.png";
 import React from "react";
 import Button from "../button";
+import { motion } from "framer-motion";
 
 function GetStarted() {
   return (
@@ -23,19 +24,27 @@ function GetStarted() {
             and more so that you can <br /> focus on building the next big
             thing.
           </Text>
-          <Button
-            mt={"50px"}
-            bg="#1870d5"
-            color={"white"}
-            fontSize={"16px"}
-            _hover={{
-              bg: "white",
-              color: "#1870d5",
-              border: "1px",
-              borderColor: "#1870d5",
+          <motion.button
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 1 },
             }}
-            children="Start With Payments"
-          />
+            whileTap={{ scale: 0.9 }}
+          >
+            <Button
+              mt={"50px"}
+              bg="#1870d5"
+              color={"white"}
+              fontSize={"16px"}
+              _hover={{
+                bg: "white",
+                color: "#1870d5",
+                border: "1px",
+                borderColor: "#1870d5",
+              }}
+              children="Start With Payments"
+            />
+          </motion.button>
         </Box>
       </Flex>
     </Box>
