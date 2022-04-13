@@ -41,7 +41,7 @@ export default function Nav() {
 
   return (
     <>
-      <Box mx={"auto"} maxW={"1440px"} py={"50px"}>
+      <Box mx={"auto"} maxW={"1440px"} py={"50px"} px={'20px'}>
         <Flex alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}

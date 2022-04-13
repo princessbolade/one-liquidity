@@ -5,7 +5,7 @@ import Button from "../button";
 
 function Hero() {
   return (
-    <Box mx={"auto"} maxW={"1440px"} py={"100px"}>
+    <Box mx={"auto"} maxW={"1440px"} py={"100px"} px={'20px'}>
       <Flex alignItems={"center"} justifyContent={"space-between"}>
         <Box>
           <Text fontWeight={"bolder"} fontSize={"6xl"}>
