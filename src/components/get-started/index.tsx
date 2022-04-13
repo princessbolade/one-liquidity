@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import unifiedImg from "../../assets/unified-img.png";
 import React from "react";
 import Button from "../button";
@@ -7,7 +7,7 @@ function GetStarted() {
   return (
     <Box mx={"auto"} maxW={"1440px"} py={"50px"} px={"20px"}>
       <Flex alignItems={"center"} justifyContent={"space-between"}>
-        <Box display={{base:'none' ,md:'flex'}}>
+        <Box display={{ base: "none", md: "flex" }}>
           <Image w={"100%"} h={"500px"} src={unifiedImg} />
         </Box>
 
@@ -29,11 +29,11 @@ function GetStarted() {
             color={"white"}
             fontSize={"16px"}
             _hover={{
-                bg:'white',
-                color: "#1870d5",
-                border:'1px',
-                borderColor: "#1870d5",
-              }}
+              bg: "white",
+              color: "#1870d5",
+              border: "1px",
+              borderColor: "#1870d5",
+            }}
             children="Start With Payments"
           />
         </Box>

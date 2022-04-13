@@ -5,7 +5,7 @@ import Button from "../button";
 
 function Hero() {
   return (
-    <Box mx={"auto"} maxW={"1440px"} py={"100px"} px={'20px'}>
+    <Box mx={"auto"} maxW={"1440px"} py={"100px"} px={"20px"}>
       <Flex alignItems={"center"} justifyContent={"space-between"}>
         <Box>
           <Text fontWeight={"bolder"} fontSize={"6xl"}>
@@ -50,7 +50,7 @@ function Hero() {
             />
           </Box>
         </Box>
-        <Box  display={{base:'none', md:'flex'}}>
+        <Box display={{ base: "none", md: "flex" }}>
           <Image w={"100%"} h={"400px"} src={coins} />
         </Box>
       </Flex>

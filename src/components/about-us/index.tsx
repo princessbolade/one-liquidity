@@ -26,7 +26,7 @@ function AboutUs() {
   return (
     <Box mx={"auto"} maxW={"1440px"} py={"50px"} px={"20px"}>
       <Box textAlign={"center"}>
-        <Heading color={"#1870d5"}>About us</Heading>
+        <Heading color={"#1870d5"}>Why us?</Heading>
         <Text lineHeight={"8"} fontSize={"16px"} pt={"25px"}>
           One Liquidity is a leading payment platform patnering with companies{" "}
           <br />
