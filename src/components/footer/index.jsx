@@ -44,10 +44,15 @@ function Footer() {
         py={"50px"}
         px={"20px"}
       >
-        <Flex alignItems={"center"} justifyContent="space-between" px={"50px"}>
+        <Flex
+          alignItems={"center"}
+          justifyContent="space-between"
+          px={"50px"}
+          display={{ base: "block", md: "flex" }}
+        >
           {Object.entries(item).map(([key, values], i) => {
             return (
-              <Box>
+              <Box pt={{ base: "20px", md: "0" }}>
                 <Box fontWeight={"bold"}>{key}</Box>
                 {values.map((link) => (
                   <Flex flexDir={"column"} pt={"10px"}>
@@ -57,7 +62,13 @@ function Footer() {
               </Box>
             );
           })}
-          <Box bg={"#203C860D"} borderRadius={"10px"} px={"20px"} py={"20px"}>
+          <Box
+            mt={{ base: "30px", md: "0" }}
+            bg={"#203C860D"}
+            borderRadius={"10px"}
+            px={"20px"}
+            py={"20px"}
+          >
             <Text fontWeight={"bold"}>Subscribe</Text>
             <InputGroup mt={"15px"}>
               <InputLeftElement
