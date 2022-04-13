@@ -39,6 +39,7 @@ function AboutUs() {
           alignItems={"center"}
           justifyContent={"space-between"}
           pt={"50px"}
+          display={{ base: "block", md: "flex" }}
         >
           {item.map((items, i) => (
             <Box
@@ -47,6 +48,7 @@ function AboutUs() {
               ml={"50px"}
               px={"30px"}
               py={"30px"}
+              mt={{ base: "30px", md: "0" }}
             >
               <Image w={"100px"} h={"100px"} src={items.src} />
               <Text
