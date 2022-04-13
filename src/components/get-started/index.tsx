@@ -1,5 +1,5 @@
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
-import cryptoExchange from "../../assets/crypto-exchange.png";
+import unifiedImg from "../../assets/unified-img.png";
 import React from "react";
 import Button from "../button";
 
@@ -7,8 +7,8 @@ function GetStarted() {
   return (
     <Box mx={"auto"} maxW={"1440px"} py={"50px"} px={"20px"}>
       <Flex alignItems={"center"} justifyContent={"space-between"}>
-        <Box>
-          <Image w={"100%"} h={"500px"} src={cryptoExchange} />
+        <Box display={{base:'none' ,md:'flex'}}>
+          <Image w={"100%"} h={"500px"} src={unifiedImg} />
         </Box>
 
         <Box>
