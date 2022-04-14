@@ -17,7 +17,6 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, ChevronDownIcon } from "@chakra-ui/icons";
 import Logo from "../../assets/one-liquidity.jpeg";
-import { MotionBox } from "../framer/index";
 import { motion } from "framer-motion";
 
 const Links = ["Products", "Company", "Developers", "Pricing"];
