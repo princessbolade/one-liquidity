@@ -8,17 +8,17 @@ const item = [
   {
     heading: "Strategy",
     src: strategy,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae hendrerit tortor. Etiam convallis velit augue, id blandit lorem euismod vitae. Fusce pharetra posuere erat, sit amet tristique odio iaculis vitae. Morbi vel sem convallis, sollicitudin ex at, faucibus urna.",
+    text: "From Direct integrations with card networks and banks to checkout flows in the browser, we operate on and optimise at every entry level of the financial stack. We release hundreds of features and improvements to help you stay ahead of industry shifts.",
   },
   {
     heading: "Product",
     src: product,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae hendrerit tortor. Etiam convallis velit augue, id blandit lorem euismod vitae. Fusce pharetra posuere erat, sit amet tristique odio iaculis vitae. Morbi vel sem convallis, sollicitudin ex at, faucibus urna.",
+    text: "From Direct integrations with card networks and banks to checkout flows in the browser, we operate on and optimise at every entry level of the financial stack. We release hundreds of features and improvements to help you stay ahead of industry shifts.",
   },
   {
     heading: "Saftey",
     src: saftey,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae hendrerit tortor. Etiam convallis velit augue, id blandit lorem euismod vitae. Fusce pharetra posuere erat, sit amet tristique odio iaculis vitae. Morbi vel sem convallis, sollicitudin ex at, faucibus urna.",
+    text: "From Direct integrations with card networks and banks to checkout flows in the browser, we operate on and optimise at every entry level of the financial stack. We release hundreds of features and improvements to help you stay ahead of industry shifts.",
   },
 ];
 
